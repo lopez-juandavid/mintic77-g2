@@ -81,7 +81,9 @@ body {
 /* -------------------- FIN CSS HEADER -------------------- */
 
 /* Modificaciones Diego Guisasola. Sección Libros destacados del mes */
-.services-section,
+
+
+.seccion-libros,
 .seccion-noticias,
 .seccion-equipo {
   display: flex;
@@ -139,7 +141,7 @@ body {
   justify-content: space-around;
 }
 
-/*--------------------- Modificaciones Jefferson: Sección Noticias -----------------*/
+/*--------------------- Sección Noticias -----------------*/
 .news-info__title {
   align-self: center;
   text-align: center;
@@ -173,11 +175,11 @@ body {
   border-radius: 10%;
 }
 
-/*----------Fin Modificaciones Jefferson--------------------*/
+/*----------Fin Modificaciones noticias--------------------*/
 
 .services-info {
-  padding: 20px;
-  text-align: center;
+  width: 25%;
+  padding: 15px;
 }
 
 .news-info {
@@ -223,12 +225,10 @@ body {
 /* -------------------- FIN CSservicesS FOOTER -------------------- */
 
 .services-info__imagen {
-  height: 300px;
-  width: 200px;
-  border-radius: 10%;
+  display: block;
   margin-right: auto;
   margin-left: auto;
-  display: block;
+  border-radius: 10%;
 }
 
 .team-info {
@@ -245,4 +245,5 @@ body {
   margin-right: auto;
   margin-left: auto;
   border-radius: 10%;
+  
 }
